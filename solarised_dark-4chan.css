@@ -7,14 +7,16 @@
 
 /* TODO: 
 	style thread watcher
+	some other shit
 */
 
 @-moz-document domain("boards.4chan.org") {
 /* Relative to the general appearance of 4chan. */
+
 body {
-    background: #eee8d5 !important;
+    background: #002b36 !important;
     font-family: 'droid sans mono', sans-serif !important;
-    color: #586e75 !important;
+    color: #93a1a1 !important;
     margin: auto !important;
     font-size: 13px !important;
 }
@@ -24,40 +26,40 @@ hr {
 }
 
 /* Links */
-a {
+a:link {
     color: #268bd2 !important;
 }
-a:visited, a:hover {
+a:visited, a:hover, a:active {
     color: #6c71c4 !important;
 }
 
 /* Foreground of the header bar */
 #board-list,
 #custom-board-list {
-    color: #586e75 !important;
+    color: #93a1a1 !important;
     font-family: 'droid sans mono', sans-serif !important;
 }
 #header-bar a {
-    color: #586e75 !important;
+    color: #93a1a1 !important;
 }
 
 /* Background of the header bar */
 #header-bar.dialog {
-    background: #eee8d5 !important;
+    background: #073642 !important;
     border: 0 !important;
 }
 
 /* Color of the selected board on the header bar. */
 #header-bar a.current {
-    color: #586e75 !important;
+    color: #93a1a1 !important;
 }
 
 /* Appearance of the menus. */
 #menu.dialog,
 .entry {
-    background: #eee8d5 !important;
+    background: #002b36 !important;
     border: 0 !important;
-    color: #586e75 !important;
+    color: #93a1a1 !important;
     font-family: 'droid sans mono', sans-serif !important;
     font-size: 0.750rem !important;
 }
@@ -80,15 +82,15 @@ div.pagelist {
     font-family: 'droid sans mono', sans-serif !important;
     font-size: 0.750rem !important;
     background: transparent !important;
-    color: #586e75 !important;
+    color: #93a1a1 !important;
     border-style: none !important;
 }
 
 /* Thread updater menu */
 #index-search.field:hover,
 #updater.dialog:hover {
-    background: #eee8d5 !important;
-    color: #586e75 !important;
+    background: #002b36 !important;
+    color: #93a1a1 !important;
 }
 
 /* Clean up. */
@@ -119,12 +121,12 @@ div.ad-plea {
 .post.reply {
     font-family: 'droid sans mono', sans-serif !important;
     font-size: 13px !important;
-    background: #fdf6e3 !important;
-    color: #586e75 !important;
+    background: #073642 !important;
+    color: #93a1a1 !important;
     width: 100% !important;
     border: 0 !important;
     padding: 6px !important;
-    box-shadow: #586e75 0 0 2px !important;
+    box-shadow: #93a1a1 0 0 2px !important;
 }
 
 /* Relative to the thread */
@@ -144,7 +146,7 @@ div.postContainer.opContainer {
     border: 0 !important;
 }
 .inline .post.reply {
-    background-color: #fdf6e3 !important;
+    background-color: #073642 !important;
     border: 0 !important;
 }
 
@@ -224,8 +226,8 @@ div.fileText {
 
 /* Relative to the quick reply. */
 #qr {
-    background: #eee8d5 !important;
-    color: #586e75 !important;
+    background: #002b36 !important;
+    color: #93a1a1 !important;
     border: none !important;
     border-radius: 2px !important;
     box-shadow: none !important;
@@ -239,8 +241,8 @@ div.fileText {
     margin-top: 23px !important;
     padding-top: 10px !important;
     padding-bottom: 3px !important;
-    background: #eee8d5 !important;
-    border-color: #586e75 !important;
+    background: #002b36 !important;
+    border-color: #93a1a1 !important;
 }
 #dump-button {
     background: #3d3d3d !important;
@@ -250,8 +252,8 @@ div.fileText {
 
 /* Color of the fields. */
 #qr .field {
-    background: #fdf6e3 !important;
-    border-color: #fdf6e3 !important;
+    background: #073642 !important;
+    border-color: #073642 !important;
     color: #93a1a1 !important;
 }
 
@@ -290,7 +292,7 @@ fieldset legend,
 a.tab-main.tab-selected {
     font-family: "droid sans mono" !important;
     font-size: 12px !important;
-    background: #eee8d5 !important;
+    background: #002b36 !important;
     color: #657b83 !important;
 }
 
@@ -343,3 +345,6 @@ a.tab-main.tab-selected {
 }
 
 }
+
+/* add on rice */
+#threadFinderContainer {margin:auto;}
