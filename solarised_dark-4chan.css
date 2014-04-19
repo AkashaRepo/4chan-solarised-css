@@ -2,349 +2,374 @@
 	4chan solarised light theme by qt
 	this is essentially Skys Imouto theme for 4chan, with a few modifications
 	colours based off of Ethan Schoonovers Solarized themes
-	fuck off, SJWs
+	SJW faggots pls go
 */
 
 /* TODO: 
-	style thread watcher
-	some other shit
+	sweet fuck all :^)
 */
 
 @-moz-document domain("boards.4chan.org") {
-/* Relative to the general appearance of 4chan. */
+	/* Relative to the general appearance of 4chan. */
 
-body {
-    background: #002b36 !important;
-    font-family: 'droid sans mono', sans-serif !important;
-    color: #93a1a1 !important;
-    margin: auto !important;
-    font-size: 13px !important;
-}
-hr {
-    padding-top: 5px !important;
-    border: 0 !important;
-}
+	body {
+		background: #002b36 !important;
+		font-family: 'droid sans mono', sans-serif !important;
+		color: #93a1a1 !important;
+		margin: auto !important;
+		font-size: 13px !important;
+	}
 
-/* Links */
-a:link {
-    color: #268bd2 !important;
-}
-a:visited, a:hover, a:active {
-    color: #6c71c4 !important;
-}
+	.fileThumb {background: #002b36 !important;}
 
-/* Foreground of the header bar */
-#board-list,
-#custom-board-list {
-    color: #93a1a1 !important;
-    font-family: 'droid sans mono', sans-serif !important;
-}
-#header-bar a {
-    color: #93a1a1 !important;
-}
+	hr {
+		padding-top: 5px !important;
+		border: 0 !important;
+	}
 
-/* Background of the header bar */
-#header-bar.dialog {
-    background: #073642 !important;
-    border: 0 !important;
-}
+	/* Links */
+	a:link {
+		color: #268bd2 !important;
+	}
+	a:visited, a:hover, a:active {
+		color: #6c71c4 !important;
+	}
 
-/* Color of the selected board on the header bar. */
-#header-bar a.current {
-    color: #93a1a1 !important;
-}
+	/* Foreground of the header bar */
+	#board-list,
+	#custom-board-list {
+		color: #93a1a1 !important;
+		font-family: 'droid sans mono', sans-serif !important;
+	}
+	#header-bar a {
+		color: #93a1a1 !important;
+	}
 
-/* Appearance of the menus. */
-#menu.dialog,
-.entry {
-    background: #002b36 !important;
-    border: 0 !important;
-    color: #93a1a1 !important;
-    font-family: 'droid sans mono', sans-serif !important;
-    font-size: 0.750rem !important;
-}
+	/* Background of the header bar */
+	#header-bar.dialog {
+		background: #073642 !important;
+		border: 0 !important;
+	}
 
-/* Catalog search and page links, This is not ready. */
-div.navLinks,
-div.pagelist {
-    background: transparent !important;
-    font-family: 'droid sans mono', sans-serif !important;
-    font-size: 0.750rem !important;
-    border: 0 !important;
-    display: inline-block !important;
-    margin-bottom: 0 !important;
-}
+	/* Color of the selected board on the header bar. */
+	#header-bar a.current {
+		color: #93a1a1 !important;
+	}
 
-/* Appearance of the thread updater and thread stats. */
-#index-search.field,
-#updater.dialog,
-#thread-stats.dialog {
-    font-family: 'droid sans mono', sans-serif !important;
-    font-size: 0.750rem !important;
-    background: transparent !important;
-    color: #93a1a1 !important;
-    border-style: none !important;
-}
+	/* Appearance of the menus. */
+	#menu.dialog,
+	.entry {
+		background: #002b36 !important;
+		border: 0 !important;
+		color: #93a1a1 !important;
+		font-family: 'droid sans mono', sans-serif !important;
+		font-size: 0.750rem !important;
+	}
 
-/* Thread updater menu */
-#index-search.field:hover,
-#updater.dialog:hover {
-    background: #002b36 !important;
-    color: #93a1a1 !important;
-}
+	/* Catalog search and page links, This is not ready. */
+	div.navLinks,
+	div.pagelist {
+		background: transparent !important;
+		font-family: 'droid sans mono', sans-serif !important;
+		font-size: 0.750rem !important;
+		border: 0 !important;
+		display: inline-block !important;
+		margin-bottom: 0 !important;
+	}
 
-/* Clean up. */
-.bottomCtrl.desktop,
-#absbot.absBotText,
-.navLinks.desktop,
-.navLinks.navLinksBot.desktop {
-    display: none !important;
-}
+	/* Appearance of the thread updater and thread stats. */
+	#index-search.field,
+	#updater.dialog,
+	#thread-stats.dialog {
+		font-family: 'droid sans mono', sans-serif !important;
+		font-size: 0.750rem !important;
+		background: transparent !important;
+		color: #93a1a1 !important;
+		border-style: none !important;
+	}
 
-/* Hide ads? */
-/* div.center,
-div.topad.center,
-div.middlead.center,
-div.bottomad.center,
-div.ad-plea {
-    display: none !important;
-} */
+	/* Thread updater menu */
+	#index-search.field:hover,
+	#updater.dialog:hover {
+		background: #002b36 !important;
+		color: #93a1a1 !important;
+	}
 
-/* Display board banner? */
-/* .boardBanner {
-    display: none !important;
-} */
+	/* Clean up. */
+	.bottomCtrl.desktop,
+	#absbot.absBotText,
+	.navLinks.desktop,
+	.navLinks.navLinksBot.desktop {
+		display: none !important;
+	}
 
-/* support poor mootles you jew */
+	/* Hide ads? */
+	/* div.center,
+	div.topad.center,
+	div.middlead.center,
+	div.bottomad.center,
+	div.ad-plea {
+		display: none !important;
+	} */
 
-/* Relative to posts. */
-.post.reply {
-    font-family: 'droid sans mono', sans-serif !important;
-    font-size: 13px !important;
-    background: #073642 !important;
-    color: #93a1a1 !important;
-    width: 100% !important;
-    border: 0 !important;
-    padding: 6px !important;
-    box-shadow: #93a1a1 0 0 2px !important;
-}
+	/* Display board banner? */
+	/* .boardBanner {
+		display: none !important;
+	} */
 
-/* Relative to the thread */
-.thread {
-    margin-top: -10px !important;
-    margin-right: 30px !important;
-    margin-left: 15px !important;
-}
-div.postContainer.opContainer {
-    display: inline-block !important;
-    width: 100% !important;
-    margin: auto !important;
-}
-.inline {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    border: 0 !important;
-}
-.inline .post.reply {
-    background-color: #073642 !important;
-    border: 0 !important;
-}
+	/* support poor mootles you jew */
 
-/* Post subjects. */
-span.subject {
-    color: #cb4b16 !important;
-}
+	/* Relative to posts. */
+	.post.reply {
+		font-family: 'droid sans mono', sans-serif !important;
+		font-size: 13px !important;
+		background: #073642 !important;
+		color: #93a1a1 !important;
+		width: 100% !important;
+		border: 0 !important;
+		padding: 6px !important;
+		box-shadow: #93a1a1 0 0 0px !important;
+	}
 
-/* Tripcodes. */
-span.postertrip {
-    color: #2aa198 !important;
-}
+	/* Relative to the thread */
+	.thread {
+		margin-top: -10px !important;
+		margin-right: 30px !important;
+		margin-left: 15px !important;
+	}
+	div.postContainer.opContainer {
+		display: inline-block !important;
+		width: 100% !important;
+		margin: auto !important;
+	}
+	.inline {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+		border: 0 !important;
+	}
+	.inline .post.reply {
+		background-color: #073642 !important;
+		border: 0 !important;
+	}
 
-/* Post numbers. */
-span.postNum a {
-    color: #2aa198 !important;
-}
+	/* Post subjects. */
+	span.subject {
+		color: #cb4b16 !important;
+	}
 
-/* Poster's name. */
-span.name {
-    color: #859900 !important;
-    font-weight: normal !important;
-}
+	/* Tripcodes. */
+	span.postertrip {
+		color: #2aa198 !important;
+	}
 
-/* Date and time of the posts. */
-span.dateTime {
-    color: #657b83 !important;
-}
+	/* Post numbers. */
+	span.postNum a {
+		color: #2aa198 !important;
+	}
 
-/* Quote links. */
-a.quotelink {
-    color: #2aa198 !important;
-}
+	/* Poster's name. */
+	span.name {
+		color: #859900 !important;
+		font-weight: normal !important;
+	}
 
-/* Link to posts quoting the current post. */
-a.backlink {
-    color: #2aa198 !important;
-}
+	/* Date and time of the posts. */
+	span.dateTime {
+		color: #657b83 !important;
+	}
 
-/* Greentext. */
-span.quote {
-    color: #859900 !important;
-}
+	/* Quote links. */
+	a.quotelink {
+		color: #2aa198 !important;
+	}
 
-/* Post menu button. */
-.post .menu-button {
-    float: right;
-    position: relative;
-    left: 0px;
-}
+	/* Link to posts quoting the current post. */
+	a.backlink {
+		color: #2aa198 !important;
+	}
 
-/* Hide "hide reply" buttons. */
-.postInfo > input,
-a.hide-reply-button > span {
-    display: none !important;
-}
+	/* Greentext. */
+	span.quote {
+		color: #859900 !important;
+	}
 
-/* Relative to post info, i.e. Post name, tripcode, post date, etc. */
-.postInfo a,
-div.postInfo {
-    color: #93a1a1 !important;
-    font-size: 12px !important;
-}
+	/* Post menu button. */
+	.post .menu-button {
+		float: right;
+		position: relative;
+		left: 0px;
+	}
 
-/* Relative to file info, i.e. filename, file size, resolution, etc. */
-div.fileText {
-    font-family: 'droid sans mono', sans-serif !important;
-    font-size: 0.750rem !important;
-}
+	/* Hide "hide reply" buttons. */
+	.postInfo > input,
+	a.hide-reply-button > span {
+		display: none !important;
+	}
 
-/* Fix post previews. */
-#qp {
-    border: 0 !important;
-    box-shadow: none !important;
-}
+	/* Relative to post info, i.e. Post name, tripcode, post date, etc. */
+	.postInfo a,
+	div.postInfo {
+		color: #93a1a1 !important;
+		font-size: 12px !important;
+	}
+
+	/* Relative to file info, i.e. filename, file size, resolution, etc. */
+	div.fileText {
+		font-family: 'droid sans mono', sans-serif !important;
+		font-size: 0.750rem !important;
+	}
+
+	/* Fix post previews. */
+	#qp {
+		border: 0 !important;
+		box-shadow: none !important;
+	}
 
 
-/* Relative to the quick reply. */
-#qr {
-    background: #002b36 !important;
-    color: #93a1a1 !important;
-    border: none !important;
-    border-radius: 2px !important;
-    box-shadow: none !important;
-    transition: all 0.2s ease 0s;
-}
-#qr form {
-    bottom: 12px !important;
-    right: 0% !important;
-    width: 300px !important;
-    padding: 4px !important;
-    margin-top: 23px !important;
-    padding-top: 10px !important;
-    padding-bottom: 3px !important;
-    background: #002b36 !important;
-    border-color: #93a1a1 !important;
-}
-#dump-button {
-    background: #3d3d3d !important;
-    border-color: #3d3d3d !important;
-    color: #eee !important;
-}
+	/* Relative to the quick reply. */
+	#qr {
+		background: #002b36 !important;
+		color: #93a1a1 !important;
+		border: none !important;
+		border-radius: 2px !important;
+		box-shadow: none !important;
+		transition: all 0.2s ease 0s;
+	}
+	#qr form {
+		bottom: 12px !important;
+		right: 0% !important;
+		width: 300px !important;
+		padding: 4px !important;
+		margin-top: 23px !important;
+		padding-top: 10px !important;
+		padding-bottom: 3px !important;
+		background: #002b36 !important;
+		border-color: #93a1a1 !important;
+	}
+	#dump-button {
+		background: #3d3d3d !important;
+		border-color: #3d3d3d !important;
+		color: #eee !important;
+	}
 
-/* Color of the fields. */
-#qr .field {
-    background: #073642 !important;
-    border-color: #073642 !important;
-    color: #93a1a1 !important;
+	/* Color of the fields. */
+	#qr .field {
+		background: #073642 !important;
+		border-color: #073642 !important;
+		color: #93a1a1 !important;
+	}
+
+	/* Movable QR? */
+	#qr span.move {
+		/* display: none !important; */
+	}
+
+	/* Remove menu */
+	#qr select {
+		/* display: none !important; */
+	}
+
+	/* Make the name field become invisible when there's something in it... */
+	/* #qr input.field:nth-child(2) {
+		background: #fefefe !important;
+		color: #fefefe !important;
+	} */
+
+	/* ... And then make it visible again when you hover over it. */
+	/* #qr input.field:nth-child(2):hover {
+		background: #fefefe !important;
+		color: #2f2f2f !important;
+	} */
+
+	/* why.jpg */
+
+	/* Remove bar above the fields. */
+	#qr > div {
+		position: fixed !important;
+	}
+
+	/* Relative to 4chan X's menu */
+	#fourchanx-settings.dialog,
+	fieldset legend,
+	a.tab-main.tab-selected {
+		font-family: "droid sans mono" !important;
+		font-size: 12px !important;
+		background: #002b36 !important;
+		color: #657b83 !important;
+	}
+
+	/*** Animations ***/
+
+	/* Change backlinks to >> and animate them. */
+	/* a.backlink {
+		text-decoration: none !important;
+		font-size: 0 !important;;
+	}
+	.backlink:after {
+		font-size: 11px !important;
+		padding: 1px;
+		content: '>>' !important;
+		text-decoration: none !important;
+	}
+	.backlink:not(:first-child) {
+		margin-left: -1.0rem;
+		transition: all .1s linear .2s;
+		opacity: 0;
+	} */
+
+	/* again, why.jpg */
+
+	/* Post menu animations. */
+	.postContainer:hover .backlink {
+		margin-left: 0rem;
+		transition-delay: .1s;
+		opacity: 100;
+	}
+	.post.reply a.menu-button {
+		opacity: 0;
+		transition: all .2s;
+	}
+	.post.reply:hover .menu-button {
+		opacity: 100;
+		transition: all .1s;
+	}
+	/* QR animations. */
+	#qr.dialog.has-captcha.autohide,
+	#qr.dialog.autohide {
+		top: -300px !important;
+		height: 21px !important;
+		transition: all 0.7s ease 0s;
+	}
+
+	/* get rid of those fucking arrows at the side of every post */
+	.sideArrows {
+		display: none;
+	}
+
+	/* dialogs */
+	.yotsuba-b:root .dialog,
+	.yotsuba:root .dialog {
+		font-family: 'droid sans mono', sans-serif !important;
+		font-size: 13px !important;
+		background: #073642 !important;
+		color: #93a1a1 !important;
+		border: 0 !important;
+	}
+
+	/* settings borders */
+	.yotsuba-b:root #fourchanx-settings fieldset,
+	.yotsuba:root #fourchanx-settings fieldset {
+		border: 0 !important;
+	}
+	
+	/* tripfig finder */
+	#threadFinderContainer {
+		font-family: 'droid sans mono', sans-serif !important;
+		font-size: 13px !important;
+		background: #073642 !important;
+		color: #93a1a1 !important;
+		border: 0 !important;
+		margin:auto;
+		margin-bottom: 50px;
+	}
 }
-
-/* Movable QR? */
-#qr span.move {
-    /* display: none !important; */
-}
-
-/* Remove menu */
-#qr select {
-    /* display: none !important; */
-}
-
-/* Make the name field become invisible when there's something in it... */
-/* #qr input.field:nth-child(2) {
-    background: #fefefe !important;
-    color: #fefefe !important;
-} */
-
-/* ... And then make it visible again when you hover over it. */
-/* #qr input.field:nth-child(2):hover {
-    background: #fefefe !important;
-    color: #2f2f2f !important;
-} */
-
-/* why.jpg */
-
-/* Remove bar above the fields. */
-#qr > div {
-    position: fixed !important;
-}
-
-/* Relative to 4chan X's menu */
-#fourchanx-settings.dialog,
-fieldset legend,
-a.tab-main.tab-selected {
-    font-family: "droid sans mono" !important;
-    font-size: 12px !important;
-    background: #002b36 !important;
-    color: #657b83 !important;
-}
-
-/*** Animations ***/
-
-/* Change backlinks to >> and animate them. */
-/* a.backlink {
-    text-decoration: none !important;
-    font-size: 0 !important;;
-}
-.backlink:after {
-    font-size: 11px !important;
-    padding: 1px;
-    content: '>>' !important;
-    text-decoration: none !important;
-}
-.backlink:not(:first-child) {
-    margin-left: -1.0rem;
-    transition: all .1s linear .2s;
-    opacity: 0;
-} */
-
-/* again, why.jpg */
-
-/* Post menu animations. */
-.postContainer:hover .backlink {
-    margin-left: 0rem;
-    transition-delay: .1s;
-    opacity: 100;
-}
-.post.reply a.menu-button {
-    opacity: 0;
-    transition: all .2s;
-}
-.post.reply:hover .menu-button {
-    opacity: 100;
-    transition: all .1s;
-}
-/* QR animations. */
-#qr.dialog.has-captcha.autohide,
-#qr.dialog.autohide {
-    top: -300px !important;
-    height: 21px !important;
-    transition: all 0.7s ease 0s;
-}
-
-/* get rid of those fucking arrows at the side of every post */
-.sideArrows {
-	display: none;
-}
-
-}
-
-/* add on rice */
-#threadFinderContainer {margin:auto;}
