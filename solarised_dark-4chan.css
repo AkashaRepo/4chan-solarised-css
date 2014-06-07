@@ -11,7 +11,9 @@
 
 @-moz-document domain("boards.4chan.org") {
 	/* Relative to the general appearance of 4chan. */
-
+html {
+		background: #002b36 !important;
+	}
 	body {
 		background: #002b36 !important;
 		font-family: 'droid sans mono', sans-serif !important;
